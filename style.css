@@ -18,7 +18,9 @@ header {
 }
 
 main {
-  padding: 16px
+  background-color: darkgray;
+  border-top: 6px solid gray;
+  padding: 48px 0;
 }
 
 strong {
@@ -38,5 +40,12 @@ strong {
     background-color: darkgray;
     border-top: 6px solid gray;
     margin-bottom: -24px;
+}
+
+.max-width-wrapper {
+  margin: auto;
+  padding: 16px;
+  width: 70%;
+  background-color: white;
 }
 /* Add styles here! */
